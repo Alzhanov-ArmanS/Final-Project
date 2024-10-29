@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Блог</title>
+    <style>
+        /* Добавим стиль для центрирования кнопки */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0; /* Отступ сверху и снизу */
+        }
+        
+        button {
+            padding: 10px 20px; /* Отступы внутри кнопки */
+            background-color: #300; /* Цвет фона кнопки */
+            color: white; /* Цвет текста */
+            border: none; /* Без рамок */
+            border-radius: 5px; /* Скругление углов */
+            cursor: pointer; /* Указатель при наведении */
+            font-size: 16px; /* Размер шрифта */
+        }
+
+        button:hover {
+            background-color: #333; /* Цвет при наведении */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/photo_5233719397854602647_y.png" alt="Логотип"/>
+        </div>
+        <h1>Мое Портфолио</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Обо мне</a></li>
+                <li><a href="#blog.html">Блог</a></li>
+                <li><a href="connection.php">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Блог</h1>
+            <h2>Мой путь в программировании</h2>
+            <h3>1. Проекты Python:</h3>
+            <p>Индивидуальные и групповые проекты по обработке больших данных.</p>
+            <p>Индивидуальный проект по аналитике индекса МосБиржи (IMOEX).</p>
+
+            <h3>2. Советы и рекомендации:</h3>
+            <p>Не сдаваться. Начинать всегда трудно. В начале что-то может пойти не так. Со временем Вас удивит, как быстро Вы сможете освоить новые концепции.</p>
+
+            <h3>3. Личный опыт:</h3>
+            <p>В начале изучения Data Science мне было очень сложно. Не пройдя и половину пути 6-месячного курса, я думал, что не смогу завершить его. Но продолжал, и, пройдя сложные темы и большую часть курса, у меня появилась уверенность и новые навыки.</p>
+            <p>Горжусь тем, что, несмотря на все трудности, мне все-таки удалось с отличием закончить курс и получить желаемые навыки и диплом.</p>
+
+            <h3>4. Обучающие материалы:</h3>
+            <p>Мне здорово помогают YouTube, интернет и учебные материалы курсов.</p>
+            <h3>5. Отзывы о курсах и книгах:</h3>
+            <p>Курс от СберОбразования по Data Science стоит того, чтобы его изучать. Web-разработка - очень интересное направление.</p>
+        </article>
+    </main>
+    
+    <div class="button-container">
+        <button onclick="window.location.href='index.html'">На главную страницу</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Мое Портфолио</p>
+    </footer>
+</body>
+</html>
